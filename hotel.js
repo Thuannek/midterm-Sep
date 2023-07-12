@@ -16,11 +16,14 @@ initMap();
 
 
 // button 
-document.querySelectorAll('.detail').forEach(element => {
- element.addEventListener('click',function(){
-  alert('ERROR');
-});
-});
+// document.querySelectorAll('.detail').forEach(element => {
+//  element.addEventListener('click',function(){
+//   alert('ERROR');
+// });
+// });
+function dieu_huong(){
+  location.assign("index.html");
+}
 
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');

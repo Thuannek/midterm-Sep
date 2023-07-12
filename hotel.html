@@ -15,7 +15,10 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
 <body>
-
+    <style>
+       
+       
+    </style>
     <header>
         <a href="index.html" class="logo">MYDANANG</a>
         <div id="menu-bar" class="fas fa-bars"></div>
@@ -23,7 +26,6 @@
         <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="activities.html">Activities</a>
-            <a href="bookcar.html">Car Rental</a>
             <a href="hotel.html">Hotel</a>
 
         </nav>
@@ -57,15 +59,14 @@
         </div>
     </div>
 
-
-
-
- <!-- -----------------made from https://www.youtube.com/watch?v=UH9cgPVcjFA&list=PLPNLZmPSwSkfSihlpYvHtx8fooKovXTeD
-                             but fixed it all----------------- -->
     <section class="great-place">
         <div class="container-x">
-            <h1>Featured Hotel</h1>
-            <hr width="100%" height="30px" size="4px" align="right" color="black" />
+            <div class="text-top-hotel">
+                <P>TOP TIER HOTELS</P>
+            </div>
+            <div class="text-recommendation">
+                <P>RECOMMENDATION</P>
+            </div>
             <div class="great-place-content">
                 <div class="great-place-item noidung">
                     <div class="great-place-img">
@@ -81,11 +82,12 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <p class="line-clamp desc">Eden Hotel Danang</p>
+                        <p class="money">$1870 / Per Person</p>
                         <div class="list-bts">
                             <button class="btn btn-map" data-bs-toggle="modal" data-bs-target="#exampleModal"
                                 data-lat="16.077155507846967" data-lng="108.1745475429523"><i
                                     class="fa-solid fa-map"></i></button>
-                            <button class="btn detail">Details</button>
+                            <button class="btn detail" onclick="dieu_huong()">Details</button>
                         </div>
                     </div>
                 </div>
@@ -104,6 +106,7 @@
                         </div>
 
                         <p class="line-clamp desc">Vinpearl Resort & Spa Da Nang</p>
+                        <p class="money">$1870 / Per Person</p>
                         <div class="list-bts">
                             <button class="btn btn-map" data-lat="16.070914955214338" data-lng="108.229431257446"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -127,6 +130,7 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <p class="line-clamp desc">InterContinental Danang Sun Peninsula Resort</p>
+                        <p class="money">$1870 / Per Person</p>
                         <div class="list-bts">
                             <button class="btn btn-map" data-lat="16.120452579027138" data-lng="108.30719771566584"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -150,6 +154,7 @@
                         </div>
 
                         <p class="line-clamp desc">Pullman Danang Beach Resort</p>
+                        <p class="money">$1870 / Per Person</p>
                         <div class="list-bts">
                             <button class="btn btn-map" data-lat="16.040754640951537" data-lng="108.250052158789"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -173,6 +178,7 @@
                         </div>
 
                         <p class="line-clamp desc">Ocean Luxury Villas Danang</p>
+                        <p class="money">$1870 / Per Person</p>
                         <div class="list-bts">
                             <button class="btn btn-map" data-lat="15.979806742239973" data-lng="108.27574192909069"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -195,6 +201,7 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <p class="line-clamp desc">Grandvrio Ocean Resort Danang</p>
+                        <p class="money">$1870 / Per Person</p>
                         <div class="list-bts">
                             <button class="btn btn-map" data-lat="15.956898062733513" data-lng="108.2923857225729"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal"><i
@@ -203,6 +210,25 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="text-FIND">
+            <p>FIND YOUR SUITED ONE</p>
+        </div>
+        <div class="wrapper-find">
+            <div class="Price-range">
+                Price range
+            </div>
+            <div class="Location">
+                Location
+            </div>
+            <div class="Room-style">
+                Room Style
+            </div>
+            <div class="Find">
+                Find
             </div>
         </div>
     </section>
@@ -220,27 +246,14 @@
     <footer>
         <div class="footer">
             <div class="row">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-youtube"></i></a>
-            </div>
-
-            <div class="row">
                 <ul>
                     <li><a href="#">Contact us</a></li>
                     <li><a href="#">Our Services</a></li>
                     <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Career</a></li>
+                    <li><a href="#">ToS</a></li>
+
                 </ul>
             </div>
-
-            <div class="bottom">&copy;<span id="year"> </span></div>
-
-
-
-
-
         </div>
         </div>
     </footer>
