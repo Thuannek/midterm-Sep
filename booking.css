@@ -1,0 +1,140 @@
+body{
+    margin: 0 auto;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(248.62500607967377, 231.0969114303589, 229.978129863739) 0%, rgb(238.28332901000977, 246.49999290704727, 245.51399141550064) 91.28422737121582%);;
+
+}
+/* ----------header----------- */
+.li {
+    font-family: Roboto;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    background: var(--pink);
+    padding: 0rem 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F46E6E;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+header .navbar a {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+header .navbar a:hover {
+    color: var(--black);
+}
+/* -------------section--------------- */
+.wrapper__booking {
+    width: 700px;
+    margin: 80px auto;
+}
+
+.text__booking-thanks {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #2C3448;
+}
+
+.text-hotel {
+    font-weight: 100;
+    margin-top: -30px;
+}
+
+.wrapper__booking--img img {
+
+    border-radius: 15px;
+    object-fit: cover;
+    width: 735px;
+    height: 388px;
+    margin: 10px 0px;
+}
+
+.detail__booking {
+    margin: 30px 15px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #31467D;
+    border-radius: 10px;
+    color: #5F6165;
+}
+
+.detail_booking-d-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: -20px 20px;
+
+
+}
+
+.text-subtotal {
+    margin-top: 20px;
+}
+
+.total-price {
+    margin: 5px 20px;
+    color: #2C3448;
+    font-weight: 900;
+    font-size: 24px;
+}
+.text__backtohome{
+    text-align: center;
+    text-decoration: underline 2px solid #2C3448;
+    font-size: 24px;
+}
+/* ----------footer---------- */
+.footer {
+    background: #2C3448;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: white;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}

@@ -1,0 +1,295 @@
+
+body{
+    margin: 0 auto;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(248.62500607967377, 231.0969114303589, 229.978129863739) 0%, rgb(238.28332901000977, 246.49999290704727, 245.51399141550064) 91.28422737121582%);
+}
+
+/* --------------header-------------- */
+.li {
+    font-family: Roboto;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    background: var(--pink);
+    padding: 0rem 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F46E6E;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+header .navbar a {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+header .navbar a:hover {
+    color: var(--black);
+}
+/* -----------------body-------------- */
+#wrapper {
+    display: flex;
+    margin: 100px 50px;
+    justify-content: space-around;
+}
+
+.wrapper-book {
+    flex-basis: 375px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #31467D;
+    border-radius: 10px;
+}
+
+.wrapper-img {
+    flex-basis: 60px;
+}
+.text-price p{
+    font-size: 24px;
+    margin: 15px;
+    font-weight: 900;
+}
+.span__night{
+    color: #83868D;
+}
+.check-in--check-out,
+.Adults--Children {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    color: #5F6165;
+}
+
+.date__check-in,
+.date__check-out,
+#Adults,
+#Children {
+    width: 145px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #31467D;
+    
+}
+.detail__booking{
+    margin: 30px 15px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #31467D;
+    border-radius: 10px;
+    color: #5F6165;
+}
+.detail_booking-d-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: -20px 20px;
+
+
+}
+.text-subtotal{
+    margin-top: 20px;
+}
+.total-price{
+    margin: 5px 20px;
+    color: #2C3448;
+    font-weight: 900;
+    font-size: 24px;
+}
+#book{
+    height: 10px;
+    width: 30px;
+}
+.text__book{
+    text-align: center;
+    background-color: #2C3448;
+    color: white;
+    margin: 20px 47px;
+    padding: 18px 108px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text__book:hover{
+    color: #83868D;
+
+}
+/* --------------wrapper----------------- */
+.detail--name--room {
+    margin-top: -100px;
+}
+
+.text-name--room {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 85px;
+}
+
+.text__hotel {
+    font-size: 40px;
+    font-weight: 900;
+    color: #2C3448;
+}
+
+#room {
+    padding: 10px;
+    font-size: 20px;
+    color: #2C3448;
+    font-weight: 700;
+}
+
+.star--reviews {
+    margin: 0px 85px;
+    font-size: 20px;
+    margin-top: -60px;
+}
+
+.street--hotel {
+    margin: 0px 88px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+/* --------------total- review--------------- */
+.total--reviews {
+    display: flex;
+    margin: 10px 85px;
+    justify-content: space-between;
+
+}
+
+.description-services-images {
+    flex-basis: 60px;
+}
+
+.customer__reviews {
+    background-color: transparent;
+    flex-basis: 375px;
+}
+
+.text__description-services-images {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #2C3448;
+    font-weight: 600;
+}
+
+.description:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.services:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.images:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.description {
+    text-decoration: underline solid #2C3448;
+}
+
+.text__lorem {
+    width: 900px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+/* -------------tour review-------- */
+
+.customer__reviews {
+
+    width: 400px;
+    font-size: 24px;
+    color: #2C3448;
+    font-weight: 600;
+}
+
+.customers__image-review img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 6rem;
+    width: 6rem;
+    margin: 10px 0px;
+}
+
+.qui__review {
+    display: flex;
+    flex-direction: row;
+}
+
+.customer__reviews--comment {
+    font-size: 20px;
+    margin: 21px 19px;
+    width: 300px;
+
+}
+
+.customer__reviews--comment-span {
+    font-size: 28px;
+    color: #1E1E1E;
+    font-weight: 100;
+}
+.text__viewall{
+    text-decoration: underline solid #2C3448;
+    color: #2C3448;
+    font-weight: 100;
+}
+/* -----------footer----------- */
+.footer {
+    background: #2C3448;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    font-size: 1.75rem;
+  }
+  
+  .footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: white;
+    font-size: 0.8em;
+  }
+  
+  .footer .row a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  
+  .footer .row ul {
+    width: 100%;
+  }
+  
+  .footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+  }

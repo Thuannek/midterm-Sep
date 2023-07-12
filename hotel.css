@@ -71,23 +71,35 @@ section {
 }
 
 /* create header */
+.li {
+    font-family: Roboto;
+    font-weight: 200;
+}
+header a{
+  text-decoration: none;
+}
+.navbar a {
+    text-decoration: none;
+}
+
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10000;
-  background: #ee0548;
-  padding: 2rem 9%;
+  background: var(--pink);
+  padding: 1rem 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #F46E6E;
 }
 
 header .logo {
   font-size: 2.5rem;
   color: #fff;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 header .navbar a {
@@ -97,9 +109,8 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-  color: #130f40;
+  color: var(--black);
 }
-
 #menu-bar {
   font-size: 3rem;
   color: #fff;
