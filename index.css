@@ -246,20 +246,21 @@ header .navbar a:hover {
 
     .text-meetour p {
         right: 25px;
-        top: 413px;
+        top: 284px;
         width: 403px;
         font-size: 32px;
         position: absolute;
         color: #C0A339;
         font-weight: 600;
     }
+
     .text-choice p {
         right: 142px;
-    top: 430px;
-    width: 725px;
-    position: absolute;
-    font-weight: 600;
-    color: #2C3448;
+        top: 295px;
+        width: 725px;
+        position: absolute;
+        font-weight: 600;
+        color: #2C3448;
     }
 }
 
