@@ -245,23 +245,21 @@ header .navbar a:hover {
     }
 
     .text-meetour p {
-        right: 25px;
-        top: 284px;
-        width: 403px;
-        font-size: 32px;
-        position: absolute;
+        text-align: center;
+        font-size: 2rem;
         color: #C0A339;
         font-weight: 600;
+        padding-top: 3rem;
     }
-
-    .text-choice p {
-        right: 142px;
-        top: 295px;
-        width: 725px;
-        position: absolute;
+    .text-choice {
+        font-size: 5rem;
+        text-align: center;
         font-weight: 600;
         color: #2C3448;
+        padding-top: 2rem;
     }
+
+    
 }
 
 /*=========================About Us=========================*/
@@ -346,34 +344,28 @@ header .navbar a:hover {
 
 /* ============ TOUR GUIDES================= */
 
-.team {
-    margin-top: 200px;
-}
 
 .text-meetour {
+    padding-top: 3rem;
+    text-align: center;
     font-size: 32px;
-    position: absolute;
-    right: 37%;
-    top: 2050px;
     color: #C0A339;
     font-weight: 600;
 }
 
 .text-choice {
-    font-size: 64px;
-    position: absolute;
-    right: 400px;
-    top: 2080px;
+    font-size: 4rem;
+    text-align: center;
     font-weight: 600;
     color: #2C3448;
+    padding-top: 2rem;
 }
 
 .team .box-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 60px;
 }
 
 .team .box-container .box {
