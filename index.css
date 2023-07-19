@@ -185,20 +185,17 @@ header .navbar a:hover {
 }
 
 .text-trustmebro {
-
-    font-size: 32px;
-    position: absolute;
-    right: 47%;
-    top: 107%;
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
     color: #C0A339;
     font-weight: 600;
 }
 
 .text-tourists {
-    font-size: 64px;
-    position: absolute;
-    right: 50px;
-    top: 113%;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 3.5rem;
     font-weight: 600;
     color: #2C3448;
 }
@@ -236,12 +233,7 @@ header .navbar a:hover {
 
 @media screen and (min-width: 1500px) and (max-width: 2000px) {
     .text-tourists p {
-        right: 100px;
-        top: -30px;
-        width: 1365px;
-        position: absolute;
-        font-weight: 600;
-        color: #2C3448;
+      
     }
 
     .text-meetour p {
