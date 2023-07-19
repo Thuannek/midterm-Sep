@@ -263,9 +263,8 @@ header .navbar a:hover {
 .about {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 130px;
+    justify-content: space-around;
+    padding: 0px 3rem;
 }
 
 .text-aboutus {
@@ -280,28 +279,25 @@ header .navbar a:hover {
 
 .about-img img {
     width: 500px;
-    height: 700px;
+    height: 600px;
     box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
 }
 
 .about-text {
     flex: 1;
-    /*width: 100px;*/
-    display: flex;
-    flex-flow: column wrap;
 }
 
-.about-text small,
-.about-text p,
-.about-text a {
-    flex: 1;
+.about-text p {
     font-family: Roboto;
+    color: black;
 }
 
 .about-text small {
     color: #C0A339;
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: bold;
+    
 }
 
 .about-text h2 {
@@ -320,25 +316,27 @@ header .navbar a:hover {
     font-size: 24px;
 }
 
-.about-text a {
-    background-color: #fff;
-    border: 3px solid #3C4866;
-    text-decoration: none;
-    border-radius: 10px;
-    width: 250px;
-    padding: 14px;
-    text-align: center;
-    margin-top: 44px;
-    color: #2C3448;
-    font-weight: bolder;
-    font-size: 24px;
+.text-button {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    width: 300px;
+    border-radius: 0.8rem;
+    height: 75px;
+    border-width: 2px; /* Tăng độ dày của border thành 3px */
+    border-color: rgba(60, 72, 102, 1);
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+
 }
 
-.about-text a:hover {
-    background-color: #014b85;
-    color: #fff;
+.text-button:hover {
+    border-color: rgba(60, 72, 102, 0.7); 
+    background-color: rgba(60, 72, 102, 0.1); 
+    color: white; 
+    text-decoration: underline white; 
 }
-
 /* ============ TOUR GUIDES================= */
 
 
@@ -532,10 +530,7 @@ header .navbar a:hover {
 
 
 @media all and (max-width: 1334px) {
-    .about-img img {
-        width: 300px;
-        height: 500px;
-    }
+    
 }
 
 @media all and (max-width: 1116px) {
